@@ -1,0 +1,138 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(52, 48, 48);
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar{
+    display: flex;
+    background-color: rgb(33, 30, 33);
+    justify-content: space-around;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    filter:opacity(0.8);
+}
+
+.navbar h1{
+    color: white;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    text-align: right;
+}
+
+.nav-links li{
+    padding-left: 20px;
+    text-align: right;
+    text-decoration: none;
+}
+
+.nav-links li h3 a{
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+}
+
+.container h2{
+    color: white;
+    margin-top: 70px;
+    margin-right: 300px;
+}
+
+.summary{
+    padding-right: 300px;
+}
+
+.summary h3{
+    padding-right: 00px;
+    color: white;
+}
+
+.summary hr{
+    width: 500px;
+    text-align: start;
+}
+.profile{
+    display: block;
+    border-radius: 100%;
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+#experience{
+    color: white;
+    margin: 40px;
+    padding: 10px;
+    margin-top: 140px;
+    border:solid black;
+    background-color: blueviolet;
+}
+
+#skills{
+    color: white;
+    margin: 40px;
+    padding: 10px;
+    border:solid black;
+    background-color: blueviolet;
+
+}
+
+.skill-icons{
+    display: flex;
+}
+
+.skill-icons li{
+    padding-right:40px;
+}
+
+#education{
+    color: white;
+    margin: 40px;
+    padding: 10px;
+    border:solid black;
+    background-color: blueviolet;
+}
+
+#projects{
+    color: white;
+    margin: 40px;
+    padding: 10px;
+    border:solid black;
+    background-color: blueviolet;
+
+}
+
+#certificates{
+    color: white;
+    margin: 40px;
+    padding: 10px;
+    border:solid black;
+    background-color: blueviolet;
+
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: blueviolet;
+    padding: 0%;
+    margin: 0%;
+    color: white;
+}
+
+footer h2{
+    padding-top: 8px;
+}
+
+.footer-links{
+    list-style-type: none;
+}
